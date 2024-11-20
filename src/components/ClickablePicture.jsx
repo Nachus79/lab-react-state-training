@@ -13,7 +13,7 @@ function ClickablePicture() {
     return (
 
         <div>
-            <img src = {isClicked ? picture2 : picture1} alt="Pictures of a young man" onClick={mouseClick} />
+            <img src = {isClicked ? picture2 : picture1} alt="Pictures of a young man" onClick={mouseClick} style={{ cursor: 'pointer' }} />
         </div>
 
     );
