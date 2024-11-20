@@ -4,8 +4,9 @@ function ClickablePicture() {
 
     const [isClicked, setIsClicked] = useState(false);
 
-    const picture1 = "./assets/images/maxence.png";
-    const picture2 = "./assets/images/maxence-glasses.png";
+    const picture1 = "./public/images/maxence.png"; 
+    const picture2 = "./public/images/maxence-glasses.png";
+    
 
     const mouseClick = () => { setIsClicked(!isClicked); };
 
