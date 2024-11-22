@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Dice() {
   const [image, setImage] = useState("../public/images/dice-empty.png");
@@ -14,7 +14,13 @@ function Dice() {
 
   return (
     <div>
-      <img src={image} alt="A face of a dice" onClick={mouseClick} style={{ cursor: "pointer" }} height="120" />
+      <img
+        src={image}
+        alt="A face of a dice"
+        onClick={mouseClick}
+        style={{ cursor: "pointer" }}
+        height="120"
+      />
     </div>
   );
 }
